@@ -1,0 +1,11 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: #0f0f0f;
+  color: #ddd;
+  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+}
+
+.canvas-wrap {
+  height: 100%;
+}
