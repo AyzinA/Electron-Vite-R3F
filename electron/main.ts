@@ -25,7 +25,7 @@ function createWindow() {
     win.loadURL(devUrl);
     // win.webContents.openDevTools();
   } else {
-    win.loadFile(path.join(__dirname, '../index.html'));
+    win.loadFile(path.join(__dirname, '..', 'dist', 'index.html'));
   }
 
   win.on('closed', () => (win = null));
